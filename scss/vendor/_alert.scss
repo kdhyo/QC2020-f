@@ -1,0 +1,15 @@
+.alert {
+  position: relative;
+  padding: $alert-padding-y $alert-padding-x;
+  margin-bottom: $alert-margin-bottom;
+  border: $alert-border-width solid transparent;
+  border-radius: $alert-border-radius;
+  font-size: $font-size-base;
+}
+
+//for 문
+@each $class, $color in $default-colors {
+  .alert-#{$class} {
+    @include alert-variant($color);
+  }
+}

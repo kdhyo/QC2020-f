@@ -1,0 +1,27 @@
+//Alpha Default
+$alpha: 0.3;
+
+// default Color
+$indigo: #4b0082 !default; //인디고
+$palevioletred: #db7093 !default; //팔레바이올렛레드
+$darkorange: #ff8c00 !default; //다크오렌지
+$chartreuse: #7fff00 !default; //차트리우스(연두색)
+$magenta: #ff00ff !default; //마그네타
+$mediumspringgreen: #00fa9a !default; //미디움스프링그린
+$mediumaquamarine: #66cdaa !default; //미디움아쿠아마린
+$dodgerblue: #1e90ff !default; //도저블루
+
+// Black & White
+$black: #000000 !default;
+$white: #ffffff !default;
+
+$default-colors: (
+  "indigo": $indigo,
+  "palevioletred": $palevioletred,
+  "darkorange": $darkorange,
+  "chartreuse": $chartreuse,
+  "magenta": $magenta,
+  "mediumspringgreen": $mediumspringgreen,
+  "mediumaquamarine": $mediumaquamarine,
+  "dodgerblue": $dodgerblue,
+);
